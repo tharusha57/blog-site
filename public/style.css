@@ -128,3 +128,45 @@ body {
 .footer{
     text-align: center;
 }
+
+
+@media screen and (max-width: 800px) {
+    .navbar{
+        text-align: center;
+    }
+    .banner{
+        background: none;
+        padding: 0 0px;
+        margin-bottom: -80px;
+    }
+    .information{
+        width: 100%;
+        text-align: center;
+    }
+    .info img{
+        width: 10%;
+    }
+    .contactImages img{
+        width: 55%;
+    }
+    .upper{
+        margin-bottom: 0px;
+        margin-left: -100px;
+    }
+    .contactImages .g-pic{
+        width:40%;
+    }
+    .kdu{
+        text-align: center;
+    }
+    .kdu-paragraph h2{
+        text-align: center;
+    }
+    .kdu img{
+        margin-top: 100px;
+    }
+    .kdu p{
+        margin-top: 250px;
+        text-align: center;
+    }
+  }
